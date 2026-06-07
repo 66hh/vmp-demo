@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="test.exe" Options="0" VMCodeSectionName=".vmp" VMComplexity="0">
+        <Procedures>
+            <Procedure MapAddress="main" Options="0" />
+            <Procedure MapAddress="__main" Options="0" />
+            <Procedure MapAddress="mainCRTStartup" Options="0" />
+            <Procedure MapAddress="__tmainCRTStartup" Options="0" />
+            <Procedure MapAddress="WinMainCRTStartup" Options="0" />
+        </Procedures>
+    </Protection>
+</Document>
